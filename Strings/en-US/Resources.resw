@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StatusControl_Button.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sync Status</value>
+  </data>
+  <data name="StatusControl_Title.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StatusControl_NoAccountsCard.Header" xml:space="preserve">
+    <value>No accounts</value>
+  </data>
+  <data name="StatusControl_NoAccountsCard.Description" xml:space="preserve">
+    <value>Connect an account</value>
+  </data>
+  <data name="StatusControl_AddButton.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="StatusControl_SyncButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="MainShell_MailSegment.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="MainShell_CalendarSegment.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="MainShell_SettingsButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MainShell_MailSegment.AutomationProperties.Name" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="MainShell_CalendarSegment.AutomationProperties.Name" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="MailView_AccountsNavigation.AutomationProperties.Name" xml:space="preserve">
+    <value>Accounts and folders</value>
+  </data>
+  <data name="MailView_NewMailButton.AutomationProperties.Name" xml:space="preserve">
+    <value>New mail</value>
+  </data>
+  <data name="MailView_NewMailButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>New mail</value>
+  </data>
+  <data name="MailView_NewMailText.Text" xml:space="preserve">
+    <value>New mail</value>
+  </data>
+  <data name="MailView_FiltersButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="MailView_FiltersButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="MailView_FilterAll.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="MailView_FilterUnread.Text" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+  <data name="MailView_FilterRead.Text" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="MailView_EmptyState.Text" xml:space="preserve">
+    <value>No emails to display</value>
+  </data>
+  <data name="MailView_ComposerPlaceholder.Text" xml:space="preserve">
+    <value>Mail Composer Coming Soon!</value>
+  </data>
+  <data name="MailView_SelectEmailPlaceholder.Text" xml:space="preserve">
+    <value>Select an email to read</value>
+  </data>
+  <data name="UnsubscribeButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Unsubscribe from this mailing list</value>
+  </data>
+  <data name="UnsubscribeButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Unsubscribe from this mailing list</value>
+  </data>
+  <data name="MailList_ToggleRead.Text" xml:space="preserve">
+    <value>Mark as read</value>
+  </data>
+  <data name="MailList_ToggleStar.Text" xml:space="preserve">
+    <value>Star</value>
+  </data>
+  <data name="MailList_Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MailReader_ShowAllRecipients.AutomationProperties.Name" xml:space="preserve">
+    <value>Show all recipients</value>
+  </data>
+  <data name="MailReader_ShowAllRecipients.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Show all recipients</value>
+  </data>
+  <data name="MailReader_Reply.Label" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="MailReader_Reply.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="MailReader_ReplyAll.Label" xml:space="preserve">
+    <value>Reply All</value>
+  </data>
+  <data name="MailReader_ReplyAll.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Reply All</value>
+  </data>
+  <data name="MailReader_Forward.Label" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="MailReader_Forward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="MailReader_Delete.Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MailReader_Delete.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MailReader_DarkMode.Label" xml:space="preserve">
+    <value>Dark mode</value>
+  </data>
+  <data name="MailReader_DarkMode.AutomationProperties.Name" xml:space="preserve">
+    <value>Toggle dark mode for this message</value>
+  </data>
+  <data name="MailReader_DarkMode.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Toggle dark mode for this message</value>
+  </data>
+  <data name="MailReader_Star.Label" xml:space="preserve">
+    <value>Star</value>
+  </data>
+  <data name="MailReader_MarkUnread.Label" xml:space="preserve">
+    <value>Mark as Unread</value>
+  </data>
+  <data name="MailReader_Loading.Text" xml:space="preserve">
+    <value>Loading email...</value>
+  </data>
+  <data name="MailReader_RetryBody.Content" xml:space="preserve">
+    <value>Try again</value>
+  </data>
+  <data name="MailReader_SaveAttachment.AutomationProperties.Name" xml:space="preserve">
+    <value>Save attachment</value>
+  </data>
+  <data name="MailReader_SaveAttachment.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MailList_MarkRead" xml:space="preserve">
+    <value>Mark as read</value>
+  </data>
+  <data name="MailList_MarkUnread" xml:space="preserve">
+    <value>Mark as unread</value>
+  </data>
+  <data name="MailList_Star" xml:space="preserve">
+    <value>Star</value>
+  </data>
+  <data name="MailList_RemoveStar" xml:space="preserve">
+    <value>Remove star</value>
+  </data>
+  <data name="MailReader_RecipientsMore" xml:space="preserve">
+    <value>+{0} more</value>
+  </data>
+</root>

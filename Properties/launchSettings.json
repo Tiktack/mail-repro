@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "1. Repro": {
+      "commandName": "MsixPackage"
+    },
+    "2. Control: no AnimatedIcon/Segmented in title bar": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "--flags noanimicon+nosegmentedui"
+    },
+    "3. Threshold: minimal title bar (still reproduces)": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "--flags nostatus+nosegmentedui"
+    },
+    "4. Threshold: minimal title bar + no InfoBadges": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "--flags nostatus+nosegmentedui+nobadges"
+    },
+    "5. Manual (no built-in test)": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "--no-auto"
+    }
+  }
+}

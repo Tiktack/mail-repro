@@ -1,0 +1,44 @@
+<Application
+    x:Class="MailPageRepro.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MailPageRepro">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <ResourceDictionary>
+                    <Style TargetType="ScrollViewer">
+                        <Setter Property="VerticalScrollBarVisibility" Value="Auto" />
+                    </Style>
+
+                    <SolidColorBrush x:Key="CommandBarBackground" Color="Transparent" />
+                    <SolidColorBrush x:Key="CommandBarBackgroundOpen" Color="Transparent" />
+                    <SolidColorBrush x:Key="CommandBarBorderBrushOpen" Color="Transparent" />
+                    <Thickness x:Key="CommandBarBorderThicknessOpen">0</Thickness>
+                </ResourceDictionary>
+
+            </ResourceDictionary.MergedDictionaries>
+
+            <ResourceDictionary.ThemeDictionaries>
+                <!--  ContactAvatarSurfaceBrush is intentionally white in BOTH themes: a constant
+                      neutral plate behind contact photos/initials. HighContrast overrides below.  -->
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="ContactAvatarSurfaceBrush" Color="#FFFFFFFF" />
+                    <StaticResource x:Key="ContactAvatarStrokeBrush" ResourceKey="ControlStrokeColorDefaultBrush" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <SolidColorBrush x:Key="ContactAvatarSurfaceBrush" Color="#FFFFFFFF" />
+                    <StaticResource x:Key="ContactAvatarStrokeBrush" ResourceKey="ControlStrokeColorDefaultBrush" />
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="HighContrast">
+                    <StaticResource x:Key="ContactAvatarSurfaceBrush" ResourceKey="SystemColorWindowColorBrush" />
+                    <StaticResource x:Key="ContactAvatarStrokeBrush" ResourceKey="SystemColorWindowTextColorBrush" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+
+
+            <x:Double x:Key="SettingsCardSpacing">4</x:Double>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
