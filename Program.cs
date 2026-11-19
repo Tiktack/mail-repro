@@ -142,15 +142,23 @@ public sealed class App : Application
     }
 
     // GPU memory allocated by this process. On integrated (UMA) GPUs it is also charged to process commit.
+    // NaN when the "GPU Process Memory" counters aren't available on the machine.
     private static double GpuCommittedMB(int pid)
     {
-        var category = new PerformanceCounterCategory("GPU Process Memory");
-        return category.GetInstanceNames()
-            .Where(n => n.StartsWith($"pid_{pid}_", StringComparison.Ordinal))
-            .Sum(n =>
-            {
-                using var counter = new PerformanceCounter("GPU Process Memory", "Total Committed", n, readOnly: true);
-                return counter.NextValue();
-            }) / 1048576.0;
+        try
+        {
+            var category = new PerformanceCounterCategory("GPU Process Memory");
+            return category.GetInstanceNames()
+                .Where(n => n.StartsWith($"pid_{pid}_", StringComparison.Ordinal))
+                .Sum(n =>
+                {
+                    using var counter = new PerformanceCounter("GPU Process Memory", "Total Committed", n, readOnly: true);
+                    return counter.NextValue();
+                }) / 1048576.0;
+        }
+        catch
+        {
+            return double.NaN;
+        }
     }
 }
