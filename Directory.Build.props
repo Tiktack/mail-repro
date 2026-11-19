@@ -1,7 +1,0 @@
-<!-- Standalone: don't import the parent repo's Directory.Build.props. -->
-<Project>
-  <ItemGroup>
-    <!-- The Toolkit dependency-property generator requests the monolithic 1.6 SDK; WinUI comes from Microsoft.WindowsAppSDK.WinUI. -->
-    <PrunePackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250108002" />
-  </ItemGroup>
-</Project>

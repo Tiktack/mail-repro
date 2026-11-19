@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--  Empty page the shell parks on while hidden to the tray, releasing the mail UI.  -->
-<Page
-    x:Class="MailPageRepro.Views.ParkedView"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" />
